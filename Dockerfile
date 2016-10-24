@@ -1,4 +1,4 @@
 FROM ubuntu:16.10
 
-RUN apt-get update && apt-get install -y curl build-essential
+RUN apt-get update && apt-get install -y curl build-essential python
 RUN curl https://install.meteor.com/ | sh
